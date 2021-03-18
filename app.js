@@ -12,7 +12,7 @@ var theConditionOfYourCar =" YOU must Have A lot Of Money To Buy One Of These Ca
 alert(theConditionOfYourCar)
 var yourFavoriteTypeOfCar= prompt("what is yourFavorite Type Of Car")
 confirm("2021");
-
+alert("hello rich "+yourFavoriteTypeOfCar)
 
 var yourCarType= prompt("what is your type car?");
 
