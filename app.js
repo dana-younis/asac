@@ -8,16 +8,21 @@ var yourFavoriteTypeOfCars="welcome To The World Of Cars";
 // console.log('hi------------------>')
 // console.log(yourFavoriteTypeOfCars)
 alert(yourFavoriteTypeOfCars)
-var theConditionOfYourCar =" YOU must Have A lot Of Money To Buy One Of These Cars";
-alert(theConditionOfYourCar)
-var yourFavoriteTypeOfCar= prompt("what is yourFavorite Type Of Car")
 confirm("2021");
-alert("hello rich "+yourFavoriteTypeOfCar)
+var theConditionOfYourCar =" YOU must Have A lot Of Money To Buy One Of These Cars";
 
-var yourCarType= prompt("what is your type car?");
+alert(theConditionOfYourCar);
 
-if (yourCarType=='Rolls Royce') {document.write('<img src="https://media.foxbusiness.com/BrightCove/854081161001/201701/3996/854081161001_5279496769001_A-new-Dawn-for-Rolls-Royce.jpg?pubId=854081161001"/>');}
-else if(yourCarType=='Pagani Zonda'){document.write('<img src="https://th.bing.com/th/id/OIP.PsvkytL-6TVt1X6HarUp_wHaE8?pid=ImgDet&rs=1"/>');}
+var yourCarType= prompt("what is your car type?");
+//var cost= prampt("how much is it?");
+
+ alert( "hello" + yourCarType);
+
+var yourFavoriteCarType= prompt("what is yourFavorite Type Of Car?");
+
+
+if (yourFavoriteCarType=='ferrari'){document.write('<img src="https://th.bing.com/th/id/OIP.KCbdnzT2uU13heR5RwejNgHaE8?pid=ImgDet&rs=1" />');}
+else if(yourFavoriteCarType=='bmw'){document.write('<img src="https://th.bing.com/th/id/OIP.nvcFt1-KD7y-m9pKAxeftgHaE7?w=242&h=180&c=7&o=5&pid=1.7" />') ;}
     
 
-else{alert('choose between Rolls Royce orPagani Zonda');}
+else{alert('choose between ferrari  or bmw');}
