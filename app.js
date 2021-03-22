@@ -18,7 +18,12 @@ var yourCarType= prompt("what is your car type?");
 
  alert( "hello" + yourCarType);
 
+ 
+
+
 var yourFavoriteCarType= prompt("what is yourFavorite Type Of Car?");
+
+var getyourFavoriteCarType =function(userschoice){
 while(yourFavoriteCarType !=='ferrari' && yourFavoriteCarType!=='bmw')
 {yourFavoriteCarType=prompt('please only write bmw/ferrari');}
 
@@ -36,4 +41,7 @@ else if(yourFavoriteCarType=='bmw'){pictures=('<img src="https://th.bing.com/th/
  console.log(pictures);
  for (var j=0;j < numberOfPictures;j++){buy += pictures;}
  console.log(buy);
- document.write(buy)
+ document.write(buy);
+}
+getyourFavoriteCarType();
+
