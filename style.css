@@ -1,0 +1,49 @@
+body{
+ background-color:#D3D3D3 ;
+ 
+  
+ ;
+}
+header h1{
+    
+    display: inline;
+    width: 500px;
+  padding: 10px;
+  border: 5px solid gray;
+  
+  font-size: 40px;
+    
+    
+}
+main h2{
+    color:#0b044b ;
+    text-align: center;
+    margin-left: 5%;
+    font-size: 60px;  
+   
+
+    
+}
+  
+     nav ul li {
+      
+        
+    color:#0b044b ;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    
+    font-size: 40px
+    
+    
+
+}
+p {color:#0b0235;
+    font-family: verdana;
+    font-size: 30px;}
+
+
+
+    footer{font-size: 40px;
+    color: #0b044b;}
