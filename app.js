@@ -16,10 +16,21 @@ alert(theConditionOfYourCar);
 var yourCarType= prompt("what is your car type?");
 //var cost= prampt("how much is it?");
 
- alert( "hello" + yourCarType);
+ alert( "hello  " + yourCarType);
+
+ var hiRich ="hi rich";
+ var welcome ="you are so welcome";
+ var yourBudget= prompt("what is your budget? ");
+while(yourBudget !==1000000 && yourBudget !== 2000000){yourBudget=prompt("chose between 1000000 or 2000000");}
+ if (yourBudget==1000000){  alert(hiRich);}
+ else if (yourBudget==2000000){alert( welcome);}
+ else {alert("if less than a million you will not be happy");}
+
+
 
  
-
+     
+ 
 
 var yourFavoriteCarType= prompt("what is yourFavorite Type Of Car?");
 
