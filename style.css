@@ -1,26 +1,29 @@
 body{
  background-color:#D3D3D3 ;
- 
+ margin-top: 0%;
   
  
 }
 header h1{
+
     
     display: inline;
     width: 500px;
   padding: 10px;
   border: 5px solid gray;
   
-  font-size: 40px;
-    
+  font-size: 77px;
+     margin-bottom:  4%;
     
 }
 main h2{
+  
     color:#0b044b ;
     text-align: center;
     margin-left: 5%;
-    font-size: 60px;  
-   
+    font-size: 50px;  
+   float: left;
+   margin-top: 6%;
 
     
 }
@@ -33,8 +36,7 @@ main h2{
     padding-right: 30px;
     padding-bottom: 50px;
     padding-left: 50px;
-    
-    font-size: 40px
+    font-size: 70px
     
     
 
@@ -47,7 +49,10 @@ p {color:#0b0235;
 
     footer{font-size: 40px;
                color:#0b0235}
-               
+
+
+              
+              
 
 
 
